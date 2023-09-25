@@ -36,16 +36,6 @@ export default function BottomNavBar({ navbarscrollStatus }: pageTypes){
               <Link href="/items"><li>Producto3...</li></Link>
             </ul>
           </li>
-          <li>
-            <div onMouseEnter={() => (brandsListApear(), productsListDesapear())}>
-              <Link href="#">Marcas</Link><GrFormDown />
-            </div>
-            <ul className={`${BottomNavBarStyles.brandList} ${BottomNavBarStyles[brandListStatus]} ${BottomNavBarStyles[navbarscrollStatus]}`} onMouseLeave={brandsListDesapear}>
-              <Link href="#"><li>Marca1</li></Link>
-              <Link href="#"><li>Marca2</li></Link>
-              <Link href="#"><li>Marca3...</li></Link>
-            </ul>
-          </li>
           <li onMouseLeave={() => (productsListDesapear(), brandsListDesapear())}>
             <Link href="/contact">Contacto</Link>
           </li>

@@ -25,7 +25,6 @@ export default function HamburgerArea({ hamburgerStatus, setHamburgerStatus }: P
       </div>
       <div className={HamburgerAreaStyles.collapseOptions}>
         <CollapseToggle option={"Productos"}/>
-        <CollapseToggle option={"Marcas"}/>
         <CollapseToggle option={"Otros"}/>
         <div style={{width: '100%', borderTop: '1px solid black'}}></div>
       </div>

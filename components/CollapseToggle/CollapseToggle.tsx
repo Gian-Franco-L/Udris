@@ -28,16 +28,10 @@ function CollapseToggle({ option } : PageTypes) {
                 <a className={CollapseToggleStyle.itemCollapse} href="/items">Producto2</a>
                 <a className={CollapseToggleStyle.itemCollapse} href="/items">Producto3</a>
               </div>
-            : option === 'Marcas'
-                ? <div id="example-collapse-text">
-                    <a className={CollapseToggleStyle.itemCollapse} href="/items">Marca1</a>
-                    <a className={CollapseToggleStyle.itemCollapse} href="/items">Marca2</a>
-                    <a className={CollapseToggleStyle.itemCollapse} href="/items">Marca3</a>
-                  </div>
-                : <div id="example-collapse-text">
-                    <a href="/contact" className={CollapseToggleStyle.itemCollapse}>Contacto</a>
-                    <a href="" className={CollapseToggleStyle.itemCollapse}>Ofertas</a>
-                  </div>
+            : <div id="example-collapse-text">
+                <a href="/contact" className={CollapseToggleStyle.itemCollapse}>Contacto</a>
+                <a href="" className={CollapseToggleStyle.itemCollapse}>Ofertas</a>
+              </div>
         }
       </Collapse>
     </>

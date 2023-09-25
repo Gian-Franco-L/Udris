@@ -10,11 +10,7 @@ export default function Locals(){
         <p>Nuestros locales</p>
       </div>
       <button className={LocalStyles.location}>
-        <p>Localización numero uno.</p>
-        <h3>Gratis</h3>
-      </button>
-      <button className={LocalStyles.location}>
-        <p>Localización numero dos.</p>
+        <p>Localización.</p>
         <h3>Gratis</h3>
       </button>
     </section>

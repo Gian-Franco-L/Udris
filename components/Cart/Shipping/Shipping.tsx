@@ -54,11 +54,7 @@ export default function Shipping(){
                     <p>Retirar por</p>
                   </div>
                   <button className={ShippingStyles.location}>
-                    <p>Punto de retiro numero uno.</p>
-                    <h3>$0000,00</h3>
-                  </button>
-                  <button className={ShippingStyles.location}>
-                    <p>Punto de retiro numero dos.</p>
+                    <p>Punto de retiro.</p>
                     <h3>$0000,00</h3>
                   </button>
                 </>
